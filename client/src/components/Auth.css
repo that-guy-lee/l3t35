@@ -1,0 +1,11 @@
+.wrapper{
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 10px;
+  background: rgba(105, 122, 184, 0.75);
+  
+}
+body {
+  background: url("https://wallpapercave.com/wp/wp2424371.jpg");
+  background-size: cover;
+}

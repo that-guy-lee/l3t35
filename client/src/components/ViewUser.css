@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: auto;
+    font-family: Poppins; 
+}
+
+.user-list{
+    list-style: none;
+}
+
+.button-wrapper{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f6648b;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.user-button:hover{
+    cursor: pointer;
+}
+
+.form-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+
+.form-layout> *:last-child{
+    grid-column: 1 / span 2;
+}

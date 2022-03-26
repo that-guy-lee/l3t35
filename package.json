@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1",
+  "description": "App to manage cool-techs credentials",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "Credentials"
+  ],
+  "author": "Lee Kaplan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.12",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "react-router-dom": "^5.2.0"
+  }
+}
+
+
